@@ -1,0 +1,1433 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dosis:wght@200..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Cormorant Infant", serif;
+}
+
+body {
+    background: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .container .navigation {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+header .container .navigation .history {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+header .container .navigation .logo {
+    width: 100px;
+    font-size: 26px;
+    display: flex;
+    font-weight: 800;
+}
+
+header .container .navigation .nabor {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.navigation a {
+    color: rgb(85, 71, 59);
+}
+
+.section-clean {
+    width: 100%;
+}
+
+.section-clean .container {
+    display: grid;
+    grid-template-columns: repeat(12, 60px);
+    grid-template-rows: repeat(12, 60px);
+    gap: 30px;
+    width: 1200px;
+}
+
+.section-clean .container .img2 {
+    grid-column-start: 7;
+    grid-row-start: 2;
+}
+
+.section-clean .container .img3 {
+    grid-column-start: 4;
+    grid-row-start: 7;
+}
+
+.section-clean .container .img4 {
+    grid-column-start: 12;
+    grid-row-start: 8;
+
+}
+
+.section-clean .container .img1 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.section-clean .container .img2 img {
+    height: 620px;
+}
+
+.section-clean .container .clean-text {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    margin-top: 30px;
+    font-size: 54px;
+    position: relative;
+    color: rgb(128, 112, 98);
+    font-size: 87px;
+    font-weight: 200;
+}
+
+.section-love {
+    width: 100%;
+}
+
+.section-love .container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.section-love .container .love {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(128, 112, 98);
+    font-style: italic;
+}
+
+.section-love .container .mimi {
+    font-weight: 800;
+}
+
+.section-love .container .img5 img {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+
+.section-collection {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.section-collection .collection {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-collection .collection p {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(128, 112, 98);
+}
+
+.section-collection .collection .line {
+    height: 2px;
+    background-color: rgba(128, 112, 98, 0.356);
+    width: 60px;
+    margin-right: 20px;
+}
+
+.section-products {
+    margin-bottom: 250px;
+    width: 100%;
+}
+
+.section-products .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-products .container .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.section-products .container .card .text-card {
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-products .container .card .text-card .name {
+    color: rgb(128, 112, 98);
+    font-size: 25px;
+}
+
+.section-products .container .card .text-card .plus {
+    color: rgb(128, 112, 98);
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.section-products .container .card .text-card .plus a {
+    color: rgb(128, 112, 98);
+}
+
+.section-history {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-history .container .section-left {
+    width: 58%;
+    align-items: start;
+    justify-content: start;
+}
+
+.section-history .collection p {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(128, 112, 98);
+}
+
+.section-history .collection .line {
+    height: 2px;
+    background-color: rgba(128, 112, 98, 0.356);
+    width: 60px;
+    margin-right: 20px;
+}
+
+.section-history .section-left .text-history {
+    color: rgb(128, 112, 98);
+    font-size: 30px;
+}
+
+.section-history .section-left .text-history .love {
+    font-size: 60px;
+    color: rgb(128, 112, 98);
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.section-history .section-left .text-history .txt {
+    margin-bottom: 24px;
+}
+
+.section-history .section-left .sozd {
+    display: flex;
+    align-items: center;
+}
+
+.section-history .section-left .sozd .text-sozd {
+    color: rgb(128, 112, 98);
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.section-history .section-left .sozd .text-sozd .mila {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.section-history .container .section-left .sozd img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.section-history .container .section-left .img-one {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.section-history .container .img-two {
+    position: relative;
+    right: -800px;
+    top: -800px;
+}
+
+.section-history .container .img-three {
+    position: relative;
+    right: -740px;
+    top: -800px;
+}
+
+.section-block {
+    /* width: 100%; */
+    margin-bottom: 100px;
+}
+
+.section-block .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-block .container .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    /* height: 50%;
+    width: 40%; */
+}
+
+.section-block .container .block .text-block {
+    font-size: 24px;
+    color: rgb(128, 112, 98);
+    font-style: italic;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.section-block .container .block img {
+    margin-bottom: 30px;
+    /* width: 60px; */
+}
+
+.section-block .container .block:nth-child(1) img {
+    height: 50px;
+}
+
+.section-zakaz {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.section-zakaz .container {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.section-zakaz .container .text-zakaz {
+    display: flex;
+}
+
+.section-zakaz .container .text-zakaz p {
+    color: rgb(192, 182, 174);
+    font-weight: 500;
+    font-size: 130px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.section-zakaz .container .text-zakaz .img-wom {
+    background: url(../img/13.jpg) no-repeat;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.section-zakaz .container .text-zakaz .up {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(240, 238, 235);
+    font-family: "Montserrat";
+}
+
+.section-zakaz .container .text-zakaz .zakaz {
+    margin-top: 50px;
+}
+
+.section-zakaz .container .text-zakaz .zakaz button {
+    border-radius: 30px;
+    border: 1px solid rgb(240, 238, 235);
+    background: none;
+    color: rgb(240, 238, 235);
+    width: 190px;
+    height: 55px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 200;
+    transition: .5s;
+}
+
+.section-zakaz .container .text-zakaz .zakaz:hover button {
+    cursor: pointer;
+    border: 1px solid rgb(199, 155, 121);
+    background-color: rgb(199, 155, 121);
+    transition: .3s;
+}
+
+.section-photo {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.section-photo .container {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-photo .container .inst {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.section-photo .container .inst .podpiska {
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    color: rgb(128, 112, 98);
+    font-size: 20px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.section-photo .container .inst .mi-pod {
+    text-decoration: underline;
+    color: rgb(128, 112, 98);
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.section-photo .container .photo-inst {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section-photo .container .photo-inst .card-inst img {
+    width: 350px;
+    height: 350px;
+}
+
+.section-registration {
+    background: url(../img/19.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.section-registration .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-registration .container .block-love {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-registration .container .block-love .love {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-registration .container .block-love .love {
+    font-size: 60px;
+    color: rgb(128, 112, 98);
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 30px
+}
+
+.section-registration .container .block-love .podarok {
+    font-size: 24px;
+    font-style: italic;
+    color: rgb(128, 112, 98);
+}
+
+.section-registration .container .reg {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-registration .container .reg .name {
+    background: none;
+    border-bottom: 2px solid rgb(128, 112, 98);
+    width: 400px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    font-family: "Montserrat";
+}
+
+.section-registration .container .reg .knopki {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.section-registration .container .reg .knopki label {
+    font-family: "Montserrat";
+    color: rgb(128, 112, 98);
+}
+
+.section-registration .container .reg .radio-knop {
+    accent-color: rgb(128, 112, 98);
+}
+
+.section-registration .container .reg .knopki2 {
+    display: flex;
+}
+
+.section-registration .container .reg .knopki2 label {
+    font-family: "Montserrat";
+    margin-left: 30px;
+    color: rgb(128, 112, 98);
+}
+
+.section-registration .container .block-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.section-registration .container .block-button button {
+    border-radius: 30px;
+    border: 1px solid rgb(128, 112, 98);
+    background: none;
+    color: rgb(128, 112, 98);
+    width: 190px;
+    height: 55px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 400;
+    transition: .5s;
+}
+
+.section-registration .container .block-button:hover button {
+    cursor: pointer;
+    border: 1px solid rgb(128, 112, 98);
+    background-color: rgb(128, 112, 98);
+    transition: .3s;
+    color: rgb(224, 224, 224);
+}
+
+.section-podval {
+    width: 100%;
+    background: url(../img/20.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.section-podval .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.section-podval .container .one-block .mimilo {
+    font-size: 24px;
+    color: rgb(236, 236, 235);
+    margin-bottom: 10px;
+
+}
+
+.section-podval .container .one-block .nature {
+    color: rgb(236, 236, 235);
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.section-podval .container .one-block .year {
+    color: rgb(236, 236, 235);
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 10px;
+}
+
+.section-podval .container .two-block .town {
+    color: rgb(236, 236, 235);
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+.section-podval .container .three-block a {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-podval .container .three-block .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(236, 236, 235);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.section-podval .container .three-block .icon:nth-child(1) {
+    transition: .5s;
+    background: none;
+}
+
+.section-podval .container .three-block .icon:nth-child(1):hover {
+    transition: .3s;
+    background-color: rgb(236, 236, 235);
+}
+
+.section-podval .container .three-block .icon:nth-child(2) {
+    transition: .5s;
+    background: none;
+}
+
+.section-podval .container .three-block .icon:nth-child(2):hover {
+    transition: .3s;
+    background-color: rgb(236, 236, 235);
+}
+
+.section-podval .container .three-block .icon:nth-child(3) {
+    transition: .5s;
+    background: none;
+}
+
+.section-podval .container .three-block .icon:nth-child(3):hover {
+    transition: .3s;
+    background-color: rgb(236, 236, 235);
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 98%;
+    }
+
+    .container .img1 img {
+        width: 180px;
+    }
+
+    .section-clean .container .img2 img {
+        width: 400px;
+    }
+
+    .section-collection .collection {
+        width: 98%;
+    }
+
+    .section-clean .container .clean-text {
+        font-size: 80px;
+    }
+
+    .section-block .container {
+        width: 98%;
+    }
+
+    .section-clean .container .img2 {
+        grid-column-start: 7;
+        grid-row-start: 2;
+    }
+
+    .section-clean .container {
+        width: 960px;
+        display: grid;
+        grid-template-columns: repeat(12, 60px);
+        grid-template-rows: repeat(12, 60px);
+        gap: 30px;
+    }
+
+    .section-clean .container .img4 {
+        grid-column-start: 10;
+    }
+
+    .section-clean {
+        margin-bottom: 120px;
+    }
+
+    .section-love .container .love {
+        font-size: 50px;
+    }
+
+    .section-love .container .img5 img {
+        width: 150px;
+        right: 15px;
+    }
+
+    .section-products .container .card {
+        width: 25%;
+    }
+
+    .section-products .container .card .text-card .name {
+        font-size: 20px;
+    }
+
+    .section-products .container .card .text-card .plus {
+        margin-left: 50px;
+    }
+
+    .section-products .container .card:nth-child(3) img {
+        margin-bottom: 80px;
+    }
+
+    .section-history .section-left .text-history .love {
+        font-size: 50px;
+    }
+
+    .section-history .section-left .text-history .txt {
+        font-size: 20px;
+    }
+
+    .section-history .container .img-two {
+        position: relative;
+        right: -600px;
+        top: -700px;
+        width: 350px;
+    }
+
+    .section-history .container .section-left .img-one img {
+        width: 200px;
+    }
+
+    .section-history .container .img-three {
+        position: relative;
+        right: -500px;
+        top: -660px;
+        width: 100px;
+    }
+
+    .section-history {
+        height: 800px;
+    }
+
+    .section-zakaz .container .text-zakaz p {
+        font-size: 90px;
+    }
+
+    .section-zakaz .container .text-zakaz .img-wom {
+        margin-left: 200px;
+        margin-top: 70px;
+        width: 500px;
+        height: 300px;
+        background-position: center;
+    }
+
+    .section-photo .container .photo-inst .card-inst img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .section-registration .container .block-love .love {
+        font-size: 50px;
+    }
+
+    .section-registration .container .block-love .podarok {
+        font-size: 20px;
+    }
+
+    .section-podval .container {
+        width: 98%;
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        width: 720px;
+    }
+
+    .section-clean .container {
+        width: 720px;
+    }
+
+    .section-clean .container .img2 {
+        grid-column-start: 6;
+    }
+
+    .container .img1 img {
+        width: 150px;
+    }
+
+    .section-clean .container .clean-text {
+        font-size: 70px;
+        grid-column-start: 1;
+    }
+
+    .section-clean .container .img1 {
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+
+    .section-clean .container .img2 img {
+        width: 300px;
+        height: 420px;
+    }
+
+    .section-clean .container .img4 {
+        grid-column-start: 8;
+        grid-row-start: 6;
+    }
+
+    .section-history .container .img-two {
+        position: relative;
+        right: -450px;
+        top: -700px;
+        width: 300px
+    }
+
+    .section-history .container .img-three {
+        position: relative;
+        right: -370px;
+        top: -660px;
+        width: 80px;
+    }
+
+    .section-history .container .section-left .img-one img {
+        width: 160px;
+    }
+
+    .section-zakaz .container .text-zakaz p {
+        font-size: 75px;
+    }
+
+    .section-zakaz .container .text-zakaz .img-wom {
+        margin-left: 200px;
+        margin-top: 90px;
+        width: 400px;
+        height: 200px;
+        background-position: right -160px;
+    }
+
+    .section-zakaz .container .text-zakaz .up {
+        font-size: 16px;
+    }
+
+    .section-zakaz .container .text-zakaz .zakaz button {
+        width: 140px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .section-photo .container .photo-inst .card-inst img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .section-registration .container .block-love .love {
+        font-size: 45px;
+    }
+
+    .section-registration .container .block-love .podarok {
+        font-size: 16px;
+    }
+
+    .section-registration .container .block-button button {
+        width: 140px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .section-registration .container .reg .name {
+        font-size: 11px;
+    }
+
+    .section-registration .container .reg .knopki {
+        font-size: 13px;
+    }
+
+    .section-registration .container .reg .knopki2 label {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-clean .container {
+        width: 740px;
+        grid-template-columns: repeat(10, 60px);
+        grid-template-rows: repeat(8, 60px);
+        gap: 10px;
+    }
+
+    .section-clean .container .img1 img {
+        width: 130px;
+        grid-column-start: 2;
+    }
+
+    .section-clean .container .img1 {
+        grid-column-start: 2;
+    }
+
+    .section-clean .container .img2 img {
+        width: 250px;
+        height: 350px
+    }
+
+    .section-clean .container .img2 {
+        grid-column-start: 7;
+    }
+
+    .section-clean .container .clean-text {
+        font-size: 60px;
+        grid-column-start: 2;
+    }
+
+    .section-clean .container .img4 {
+        grid-column-start: 9;
+        grid-row-start: 6;
+    }
+
+    .section-clean .container .img4 img {
+        width: 120px;
+    }
+
+    .section-clean .container .img3 img {
+        width: 130px;
+    }
+
+    .section-love .container .love {
+        font-size: 40px;
+    }
+
+    .section-collection .collection {
+        width: 740px;
+    }
+
+    .section-products .container .card .text-card .name {
+        font-size: 18px;
+    }
+
+    .section-products .container .card .text-card .plus .fa-solid {
+        font-size: 37px;
+    }
+
+    .section-history .section-left .text-history .love {
+        font-size: 40px;
+    }
+
+    .section-history .section-left .text-history .txt {
+        font-size: 16px;
+    }
+
+    .section-history .container .section-left .img-one img {
+        width: 140px;
+    }
+
+    .section-history .container .img-two {
+        right: -420px;
+        top: -550px;
+        width: 250px;
+    }
+
+    .section-history .container .img-three {
+        position: relative;
+        right: -370px;
+        top: -500px;
+        width: 80px
+    }
+
+    .section-block .container .block .text-block {
+        font-size: 16px;
+    }
+
+    .section-block .container .block img {
+        width: 40px;
+    }
+
+    .section-zakaz .container .text-zakaz p {
+        font-size: 60px;
+    }
+
+    .section-zakaz .container .text-zakaz .img-wom {
+        margin-left: 170px;
+        margin-top: 40px;
+        width: 320px;
+        height: 200px;
+        background-position: right -160px;
+    }
+
+    .section-zakaz .container .text-zakaz .up {
+        font-size: 14px;
+    }
+
+    .section-zakaz .container .text-zakaz .zakaz button {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .section-photo .container .inst .podpiska {
+        font-size: 16px;
+
+    }
+
+    .section-photo .container .inst .mi-pod {
+        font-size: 16px;
+    }
+
+    .section-photo .container .photo-inst .card-inst img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .section-registration .container .block-love .love {
+        font-size: 40px;
+    }
+
+    .section-registration .container .reg {
+        justify-content: center;
+    }
+
+    .section-registration .container .block-button button {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .section-podval .container .one-block .mimilo {
+        font-size: 16px;
+    }
+
+    .section-podval .container .one-block .nature {
+        font-size: 12px;
+    }
+
+    .section-podval .container .two-block .town {
+        font-size: 12px;
+    }
+
+    .section-podval .container .three-block .icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-clean .container {
+        width: 98%;
+        grid-template-columns: repeat(6, 60px);
+        grid-template-rows: repeat(6, 60px);
+        gap: 10px;
+    }
+    header .container .navigation .history{
+        font-size: 16px;
+        width: 150px;
+    }
+    header .container .navigation .logo{
+        font-size: 20px;
+        width: auto;
+    }
+    header .container .navigation .nabor{
+        font-size: 16px;
+        width: 200px;
+    }
+    header .container .navigation img{
+        width: 20px;
+    }
+    .section-clean .container .img2{
+        grid-column-start: 5;
+    }
+    .section-clean .container .img2 img{
+        width: 220px;
+        height: 320px;
+    }
+    .section-clean .container .img1{
+        grid-column-start: 1;
+    }
+    .section-clean .container .img3{
+        grid-column-start: 3;
+    }
+    .section-clean .container .clean-text{
+        grid-column-start: 1;
+    }
+    .section-clean .container .clean-text{
+        font-size: 55px;
+    }
+    .section-clean .container .img4{
+        grid-column-start: 8;
+
+    }
+    .section-clean .container .img4 img{
+        width: 100px;
+    }
+    .section-love .container .love{
+        font-size: 30px;
+    }
+    .section-love .container .img5 img{
+        width: 120px;
+    }
+    .section-collection .collection{
+        width: 98%;
+    }
+    .section-collection .collection p{
+        font-size: 20px;
+    }
+    .section-products .container .card .text-card .name{
+        font-size: 16px;
+    }
+    .section-products .container .card .text-card .plus .fa-solid{
+        font-size: 30px;
+    }
+    .section-history{
+        height: 700px;
+    }
+    .section-history .section-left .text-history .love{
+        font-size: 30px;
+    }
+    .section-history .container .section-left .img-one img{
+        width: 120px;
+    }
+    .section-history .container .img-two{
+        width: 200px;
+        right: -320px;
+        top: -520px;
+    }
+    .section-history .container .img-three {
+        position: relative;
+        right: -250px;
+        top: -480px;
+        width: 60px;
+    }
+    .section-history .section-left .sozd .text-sozd{
+        font-size: 13px;
+    }
+    .section-history .container .section-left .sozd img{
+        width: 50px;
+    }
+    .section-block .container .block img{
+        width: 30px;
+    }
+    .section-block .container .block:nth-child(1) img{
+        height: 30px;
+    }
+    .section-zakaz .container .text-zakaz p{
+        font-size: 50px;
+    }
+    .section-zakaz .container .text-zakaz .img-wom{
+        margin-left: 130px;
+        width: 270px;
+        height: 150px;
+        margin-top: 50px;
+        background-position: center -220px;
+    }
+    .section-zakaz .container .text-zakaz .up{
+        font-size: 12px;
+    }
+    .section-zakaz .container .text-zakaz .zakaz button{
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+    }
+    .section-photo .container .photo-inst .card-inst img{
+        width: 100px;
+        height: 100px;
+    }
+    .section-registration .container .block-love .love{
+        font-size: 30px;
+    }
+    .section-registration .container .reg{
+        width: 50%;
+    }
+    .section-registration .container .reg .name{
+        width: 98%;
+    }
+    .section-registration .container .reg .name{
+        font-size: 8px;
+    }
+    .section-registration .container .reg .knopki{
+        font-size: 10px;
+    }
+    .section-registration .container .reg .knopki2 label{
+        font-size: 10px;
+    }
+    .section-registration .container .block-button button{
+        font-size: 12px;
+        width: 100px;
+        height: 30px;
+    }
+    .section-registration .container .block-button{
+        margin-top: 60px;
+        margin-bottom: 130px;
+    }
+    .section-podval .container .one-block .nature{
+        font-size: 10px;
+    }
+    .section-podval .container .two-block .town{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .section-podval .container .three-block .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .section-podval .container .three-block .icon img{
+        width: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+    .section-clean .container {
+        width: 98%;
+        grid-template-columns: repeat(6, 50px);
+        grid-template-rows: repeat(6, 50px);
+        gap: 10px;
+    }
+    .section-clean .container .clean-text{
+        font-size: 45px;
+    }
+    .section-clean .container .img4 img{
+        width: 80px;
+    }
+    .section-clean .container .img4{
+        grid-column-start: 7;
+        grid-row-start: 7;
+    }
+    .section-clean .container .img3 img{
+        width: 110px;
+    }
+    .section-clean .container .img1 img{
+        width: 110px;
+
+    }
+    .section-love .container .love{
+        font-size: 25px;
+    }
+    .section-love .container .img5 img{
+        width: 100px;
+    }
+    .section-collection .collection p{
+        font-size: 16px;
+    }
+    .section-products .container .card .text-card .name{
+        font-size: 13px;
+    }
+    .section-products .container .card .text-card .plus .fa-solid{
+        font-size: 25px;
+    }
+    .section-products .container .card .text-card .plus{
+        margin-top: 0;
+        font-size: 0;
+    }
+    .section-history .section-left .text-history .love{
+        font-size: 25px;
+    }
+    .section-history .section-left .text-history .txt{
+        font-size: 14px;
+    }
+    .section-history .container .img-two{
+        right: -270px;
+        width: 190px;
+    }
+    .section-history .container .img-three{
+        right: -210px;
+    }
+    .section-block .container .block .text-block{
+        font-size: 14px;
+    }
+    .section-zakaz .container .text-zakaz p{
+        font-size: 42px;
+    }
+    .section-zakaz .container .text-zakaz .img-wom {
+        margin-left: 120px;
+        width: 230px;
+        height: 130px;
+        margin-top: 45px;
+        background-position: center -220px;
+    }
+    .section-zakaz .container .text-zakaz .up{
+        font-size: 10px;
+    }
+    .section-zakaz .container .text-zakaz .zakaz button{
+        font-size: 10px;
+    }
+    .section-photo .container .inst .podpiska{
+        font-size: 14px;
+    }
+    .section-photo .container .inst .mi-pod{
+        font-size: 14px;
+    }
+    .section-photo .container .inst .insta img{
+        width: 23px;
+    }
+    .section-photo .container .photo-inst .card-inst img{
+        width: 80px;
+        height: 80px;
+    }
+    .section-registration .container .block-love .love{
+        font-size: 25px;
+    }
+    .section-registration .container .block-love .podarok{
+        font-size: 14px;
+    }
+    .section-registration .container .reg .knopki{
+        font-size: 8px;
+    }
+    .section-registration .container .block-button button{
+        font-size: 10px;
+    }
+    .section-podval .container .two-block .town{
+        word-spacing: 0;
+    }
+    .section-podval .container{
+        width: 98%;
+    }
+    .section-podval .container .three-block .icon{
+        margin-right: 15px;
+    }
+}
+@media (max-width: 418px) {
+    .container{
+        width: 98%;
+    }
+    header .container .navigation .history{
+        font-size: 14px;
+        width: 120px;
+    }
+    header .container .navigation .nabor{
+        font-size: 14px;
+        width: 170px;
+    }
+    header .container .navigation .logo{
+        font-size: 16px;
+    }
+    header .container .navigation img{
+        width: 14px;
+    }
+    .section-clean .container .img2 img{
+        width: 160px;
+        height: 260px;
+    }
+    .section-clean .container .img2{
+        grid-column-start: 4;
+    }
+    .section-clean .container .img1 img{
+        width: 100px;
+    }
+    .section-clean .container .img3 img{
+        width: 100px;
+    }
+    .section-clean .container .img4 img{
+        width: 60px;
+    }
+    .section-clean .container .img4{
+        grid-column-start: 6;
+        grid-row-start: 6;
+    }
+    .section-clean .container .img3{
+        grid-column-start: 2;
+    }
+    .section-clean .container .clean-text{
+        font-size: 35px;
+    }
+    .section-love .container .love{
+        font-size: 20px;
+    }
+    .section-love .container .img5 img{
+        width: 80px;
+        top: -30px;
+    }
+    .section-products .container .card .text-card .name{
+        font-size: 12px;
+    }
+    .section-products .container .card:nth-child(3) img{
+        margin-bottom: 60px;
+    }
+    .section-history .container .img-two{
+        right: -220px;
+        width: 160px;
+    }
+    .section-history .container .img-three{
+        right: -160px;
+    }
+    .section-history .container .section-left .img-one img{
+        width: 100px;
+    }
+    .section-block .container .block .text-block{
+        font-size: 12px;
+    }
+    .section-zakaz .container .text-zakaz p{
+        font-size: 35px;
+    }
+    .section-zakaz .container .text-zakaz .img-wom{
+        margin-left: 80px;
+        width: 200px;
+        height: 120px;
+        margin-top: 30px;
+    }
+    .section-zakaz .container .text-zakaz .up{
+        margin-top: 20px;
+    }
+    .section-zakaz .container .text-zakaz .zakaz{
+        margin-top: 15px;
+    }
+    .section-photo .container .photo-inst .card-inst img{
+        width: 70px;
+        height: 70px;
+    }
+    .section-registration .container .reg .knopki2 label{
+        margin-left: 10px;
+    }
+    .section-podval .container .one-block .nature{
+        font-size: 8px;
+    }
+    .section-podval .container .two-block .town{
+        font-size: 8px;
+    }
+    .section-podval .container .one-block .year{
+        font-size: 8px;
+    }
+    .section-podval .container .three-block .icon img{
+        width: 12px;
+    }
+    .section-podval .container .three-block .icon{
+        width: 25px;
+        height: 25px;
+    }
+}
